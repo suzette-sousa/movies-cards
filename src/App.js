@@ -1,4 +1,5 @@
 import React, {useState, useEffect } from 'react';
+import './tailwind.output.css';
 import './App.css';
 import CardsList from './components/CardsList';
 
@@ -34,7 +35,9 @@ function App() {
   const [data, setData] = useState(movies);
 
   return (
-    <CardsList movies={data} />
+    <div class="container mx-auto px-4">
+      <CardsList movies={data} />
+    </div>
   )
  
 }

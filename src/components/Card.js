@@ -1,20 +1,15 @@
 import React from 'react';
 
 const Card = (props) => {
+  const movie = props.movie;
   return (
-    <div>
-      {props.movie.map(item => (
-        <ul>
-          <li key={Math.random()}>
-            <p>{item.title}</p>
-            <p>{item.subtitle}</p>
-            <p>{item.description}</p>
-            <p>{item.image}</p>
-            <p>{item.rating}</p>
-          </li>
-        </ul>
-      ))}
-    </div>
+    <li>
+      <p>{movie.title}</p>
+      <p>{movie.subtitle}</p>
+      <p>{movie.description}</p>
+      <p>{movie.image}</p>
+      <p>{movie.rating}</p>
+    </li>
   );
 }
 

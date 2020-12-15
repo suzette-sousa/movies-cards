@@ -4,6 +4,7 @@ import CardsList from './components/CardsList';
 
 const movies = [
   {
+    id: 1,
     title: "Title 1",
     subtitle: "Subtitle 1",
     description: "Descr 1",
@@ -11,6 +12,7 @@ const movies = [
     rating: 4
   },
   {
+    id: 2,
     title: "Title 2",
     subtitle: "Subtitle 2",
     description: "Descr 2",
@@ -18,6 +20,7 @@ const movies = [
     rating: 2.5
   },
   {
+    id: 3,
     title: "Title 3",
     subtitle: "Subtitle 23",
     description: "Descr 3",

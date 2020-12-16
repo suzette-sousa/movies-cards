@@ -14,7 +14,7 @@ Films classés par votes
 
 ### Tech Stack
 
-create-app-react, es6, react-rating-stars-component, tailwind (discover & training)
+create-app-react, es6, react-rating-stars-component, tailwind (for training too)
 
 ### Link to Github Page
 

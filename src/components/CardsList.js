@@ -7,9 +7,11 @@ const CardsList = (props) => {
     <Card key={number.id.toString()} movie={number} />
   );
   return (
-    <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      {listItems}
-    </ul>
+    <div className="container mx-auto px-4">
+      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {listItems}
+      </ul>
+    </div>
   );
 }
 
